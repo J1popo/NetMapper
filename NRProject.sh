@@ -1,9 +1,8 @@
 #!/bin/bash
 echo 'Welcome to My First Project'
 echo 'Before beginning, the following details must be verified:'
-echo '1) Ensure that the SSH protocol service is running in the background on the server.'
-echo '2) Ensure that you are in the correct directory before running the code.'
-echo '3) Make sure Nipe tool not working at the background'
+echo '1) Ensure that you are in the correct directory before running the code.'
+echo '2) Make sure Nipe tool not working at the background'
 
 
 echo '_______________________________________'
