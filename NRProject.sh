@@ -2,11 +2,11 @@
 echo 'Welcome to My First Project'
 echo 'Before beginning, the following details must be verified:'
 echo '1) Ensure that you are in the correct directory before running the code.'
-echo '2) Make sure Nipe tool not working at the background'
-
+echo '2)Ensure that you are in the correct directory before running the code.'
 
 echo '_______________________________________'
 echo ''
+echo 'Part 1:'
 function TOOLKIT_PREP()
 {
 for MODULE  in sshpass whois torify 
@@ -25,7 +25,7 @@ done
 TOOLKIT_PREP
 echo '_______________________________________'
 echo
-echo 'Exercise 2:'
+echo 'Part 2:'
 function SEARCH_NIPE()
 {
 sudo updatedb
@@ -50,7 +50,7 @@ function HIDE_CHECK()
 {
 echo ''
 echo '_______________________________________'
-echo 'Exercise 3:'
+echo 'Part 3:'
 EXTERNAL_IP=$(curl -s ident.me)  #My External IP
 MY_CORRECT_COUNTRY=$(geoiplookup $EXTERNAL_IP |awk '{print$5}') #checking your correct Country from your Correct IP.
 echo 'Your correct IP is:' $(curl -s ident.me)
@@ -76,7 +76,7 @@ fi
 HIDE_CHECK
 
 echo '_______________________________________'
-echo 'Exercise 4:'
+echo 'Part 4:'
 echo ''
 function OPPRESSED_TARGET()# the value OPPRESSED_TARGET are the details You will type 
 
