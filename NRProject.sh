@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'Welcome to My First Project'
 echo 'Before beginning, the following details must be verified:'
-echo '1) Ensure that you are in the correct directory before running the code.'
+echo '1)Ensure you got the credential of the SSH server.' 
 echo '2)Ensure that you are in the correct directory before running the code.'
 
 echo '_______________________________________'
